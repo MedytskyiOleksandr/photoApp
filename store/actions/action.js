@@ -13,7 +13,6 @@ export const fetchData = (nextPage) => {
                 username: imgData.user.username,
                 miniImage: imgData.urls.small,
                 fullImage: imgData.urls.full,
-                likes: imgData.likes,
                 width: imgData.width,
                 height: imgData.height,
             }));
